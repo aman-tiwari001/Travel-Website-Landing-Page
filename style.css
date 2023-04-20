@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@500&family=Handlee&display=swap');
+.body {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Navigation Bar */
+.navbar {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#nav-box {
+    display: flex;
+    list-style: none;
+}
+
+#nav-box>li {
+    margin: 0.5rem 1rem;
+    font-size: 1.21rem;
+}
+
+#nav-box a {
+    text-decoration: none;
+    color: black;
+}
+
+#name {
+    font-size: 1.7rem;
+    margin-left: -2rem;
+    margin-right: 23rem;
+}
+
+#logo{
+    margin-right: 0px;
+}
+
+#signup {
+    border: 0.13rem solid black;
+    border-radius: 20px;
+    padding: 0.3rem 1rem;
+    font-size: 1.4rem;
+}
+
+#login {
+    font-size: 1.4rem;
+    margin-left: 3rem;
+}
+
+
+/* Main body content */
+
+.text {
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    display: flex;
+}
+#large-text {
+    font-size: 5.2rem;
+    font-family: 'Alkatra';
+     /* width: 30%; */
+    padding-left: 3rem;
+    margin-bottom: 0px; 
+}
+
+.text>p {
+    margin-top: 0px;
+    font-family: 'Ubuntu';
+    font-size: 1.1rem;
+    /* width: 30%; */
+    padding-left: 3rem;
+}
+
+#explore {
+    border: 0.15rem solid black;
+    border-radius: 20rem;
+    padding: 0.7rem 1.1rem;
+    color: blue;
+    margin-left: 3rem;
+    margin-top: 0.7rem;
+    cursor: pointer;
+    width: 20%;
+    font-size: 1rem;
+}
+
+#hike {
+    max-width: 17%;
+    margin-top: 1.5rem;
+}
